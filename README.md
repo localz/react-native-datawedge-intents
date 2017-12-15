@@ -1,4 +1,5 @@
 *This module is provided without guarantee or warranty*
+(Updated strings to allow compatibility with the MC40 device)
 =======================================================
 
 # React-Native-DataWedge-Intents
@@ -14,7 +15,7 @@ This module is useful when developing React Native applications for Zebra mobile
 ### Installation
 
 ```bash
-npm install react-native-datawedge-intents --save
+npm install git+ssh://git@github.com/localz/react-native-datawedge-intents --save
 react-native link react-native-datawedge-intents 
 ```
 Note: as of ReactNative version 0.27 automatic installation of modules is supported via react-native link ... If you are running a version earlier than 0.26 then you will be required to manually install the module.  More detail on manual installation of a typical module can be found [here](https://github.com/Microsoft/react-native-code-push#plugin-installation-android---manual).

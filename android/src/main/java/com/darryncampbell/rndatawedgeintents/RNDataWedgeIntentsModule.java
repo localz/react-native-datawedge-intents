@@ -43,14 +43,14 @@ public class RNDataWedgeIntentsModule extends ReactContextBaseJavaModule impleme
 
     private static final String TAG = RNDataWedgeIntentsModule.class.getSimpleName();
 
-    private static final String ACTION_SOFTSCANTRIGGER = "com.symbol.datawedge.api.ACTION_SOFTSCANTRIGGER";
-    private static final String ACTION_SCANNERINPUTPLUGIN = "com.symbol.datawedge.api.ACTION_SCANNERINPUTPLUGIN";
-    private static final String ACTION_ENUMERATESCANNERS = "com.symbol.datawedge.api.ACTION_ENUMERATESCANNERS";
-    private static final String ACTION_SETDEFAULTPROFILE = "com.symbol.datawedge.api.ACTION_SETDEFAULTPROFILE";
-    private static final String ACTION_RESETDEFAULTPROFILE = "com.symbol.datawedge.api.ACTION_RESETDEFAULTPROFILE";
-    private static final String ACTION_SWITCHTOPROFILE = "com.symbol.datawedge.api.ACTION_SWITCHTOPROFILE";
-    private static final String EXTRA_PARAMETER = "com.symbol.datawedge.api.EXTRA_PARAMETER";
-    private static final String EXTRA_PROFILENAME = "com.symbol.datawedge.api.EXTRA_PROFILENAME";
+    private static final String ACTION_SOFTSCANTRIGGER = "com.motorolasolutions.emdk.datawedge.api.ACTION_SOFTSCANTRIGGER";
+    private static final String ACTION_SCANNERINPUTPLUGIN = "com.motorolasolutions.emdk.datawedge.api.ACTION_SCANNERINPUTPLUGIN";
+    private static final String ACTION_ENUMERATESCANNERS = "com.motorolasolutions.emdk.datawedge.api.ACTION_ENUMERATESCANNERS";
+    private static final String ACTION_SETDEFAULTPROFILE = "com.motorolasolutions.emdk.datawedge.api.ACTION_SETDEFAULTPROFILE";
+    private static final String ACTION_RESETDEFAULTPROFILE = "com.motorolasolutions.emdk.datawedge.api.ACTION_RESETDEFAULTPROFILE";
+    private static final String ACTION_SWITCHTOPROFILE = "com.motorolasolutions.emdk.datawedge.api.ACTION_SWITCHTOPROFILE";
+    private static final String EXTRA_PARAMETER = "com.motorolasolutions.emdk.datawedge.api.EXTRA_PARAMETER";
+    private static final String EXTRA_PROFILENAME = "com.motorolasolutions.emdk.datawedge.api.EXTRA_PROFILENAME";
     //  Intent extra parameters
     private static final String START_SCANNING = "START_SCANNING";
     private static final String STOP_SCANNING = "STOP_SCANNING";
@@ -58,12 +58,12 @@ public class RNDataWedgeIntentsModule extends ReactContextBaseJavaModule impleme
     private static final String ENABLE_PLUGIN = "ENABLE_PLUGIN";
     private static final String DISABLE_PLUGIN = "DISABLE_PLUGIN";
     //  Enumerated Scanner receiver
-    private static final String ACTION_ENUMERATEDLISET = "com.symbol.datawedge.api.ACTION_ENUMERATEDSCANNERLIST";
+    private static final String ACTION_ENUMERATEDLISET = "com.motorolasolutions.emdk.datawedge.api.ACTION_ENUMERATEDSCANNERLIST";
     private static final String KEY_ENUMERATEDSCANNERLIST = "DWAPI_KEY_ENUMERATEDSCANNERLIST";
     //  Scan data receiver
-    private static final String RECEIVED_SCAN_SOURCE = "com.symbol.datawedge.source";
-    private static final String RECEIVED_SCAN_DATA = "com.symbol.datawedge.data_string";
-    private static final String RECEIVED_SCAN_TYPE = "com.symbol.datawedge.label_type";
+    private static final String RECEIVED_SCAN_SOURCE = "com.motorolasolutions.emdk.datawedge.source";
+    private static final String RECEIVED_SCAN_DATA = "com.motorolasolutions.emdk.datawedge.data_string";
+    private static final String RECEIVED_SCAN_TYPE = "com.motorolasolutions.emdk.datawedge.label_type";
 	//  The previously registered receiver (if any)
 	private String registeredAction = null;
 	private String registeredCategory = null;
