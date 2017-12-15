@@ -43,6 +43,8 @@ public class RNDataWedgeIntentsModule extends ReactContextBaseJavaModule impleme
 
     private static final String TAG = RNDataWedgeIntentsModule.class.getSimpleName();
 
+    public static final String REACT_CLASS = "DataWedgeIntents";
+
     private static final String ACTION_SOFTSCANTRIGGER = "com.motorolasolutions.emdk.datawedge.api.ACTION_SOFTSCANTRIGGER";
     private static final String ACTION_SCANNERINPUTPLUGIN = "com.motorolasolutions.emdk.datawedge.api.ACTION_SCANNERINPUTPLUGIN";
     private static final String ACTION_ENUMERATESCANNERS = "com.motorolasolutions.emdk.datawedge.api.ACTION_ENUMERATESCANNERS";
@@ -119,7 +121,7 @@ public class RNDataWedgeIntentsModule extends ReactContextBaseJavaModule impleme
 
     @Override
     public String getName() {
-      return "DataWedgeIntents";
+      return REACT_CLASS;
     }
 
 
